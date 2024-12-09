@@ -1,0 +1,14 @@
+.ProjectCardTitle {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 2rem;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+.ProjectCardTitle > p {
+    font-size: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+}

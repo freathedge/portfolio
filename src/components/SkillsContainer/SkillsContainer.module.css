@@ -1,0 +1,17 @@
+.SkillsContainer {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    margin-bottom: 5vh;
+}
+
+.SkillsGroup {
+    padding: 1rem;
+    column-gap: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+    justify-content: center;
+}

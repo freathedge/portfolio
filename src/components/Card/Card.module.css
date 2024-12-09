@@ -1,0 +1,12 @@
+.Card {
+    position: absolute;
+    width: 80vw;
+    height: 200vh;
+    background-color: rgba(0, 0, 0, 0.67);
+    z-index: 100;
+    margin-top: 5vh;
+
+    border-radius: 15px;
+    border: solid 1px rgb(46, 46, 46);
+    padding: 5vw;
+}

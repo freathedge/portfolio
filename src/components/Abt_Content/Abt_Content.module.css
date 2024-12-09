@@ -1,0 +1,15 @@
+.Abt_Content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-content: center;
+}
+
+@media (max-width: 650px) {
+    .Abt_Content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

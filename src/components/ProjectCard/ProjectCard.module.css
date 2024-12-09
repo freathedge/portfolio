@@ -1,0 +1,21 @@
+.ProjectCard {
+    min-height: 550px;
+    width: 500px;
+    background: rgba(46, 46, 46, 0.5);
+    border: 1px solid rgb(46, 46, 46);
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.ProjectCard > img {
+    width: 100%;
+    border-radius: 25px;
+    height: 250px;
+    
+}
+
+.ProjectCard > p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    text-align: left;
+}

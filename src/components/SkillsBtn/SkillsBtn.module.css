@@ -1,0 +1,21 @@
+.SkillsBtn {
+    background: rgb(27, 27, 27);
+    width: fit-content;
+    height: 4vh;
+    font-size: 1.3rem;
+    line-height: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 15px;
+    align-items: center;
+    border-radius: 15px;
+    gap: 1rem;
+    transition: all 0.2s ease 0s;
+
+}
+
+.SkillsBtn:hover {
+    background: rgb(46, 46, 46);
+    transform: scale(103%);
+
+}

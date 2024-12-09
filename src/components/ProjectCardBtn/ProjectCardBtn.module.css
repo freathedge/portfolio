@@ -1,0 +1,10 @@
+.ProjectCardBtn {
+    align-items: center;
+    vertical-align: middle;
+    width: 2rem;
+    transition: 0.3s;
+}
+
+.ProjectCardBtn:hover {
+    transform: translateY(-5px);
+}

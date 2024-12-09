@@ -1,21 +1,37 @@
 .ProjectCard {
-    min-height: 550px;
-    width: 500px;
+    min-height: 50vh;
+    width: 25vw;
     background: rgba(46, 46, 46, 0.5);
     border: 1px solid rgb(46, 46, 46);
     padding: 2rem;
     border-radius: 15px;
+    max-height: 80vh;
 }
 
 .ProjectCard > img {
     width: 100%;
     border-radius: 25px;
     height: 250px;
-    
+    transition: all 0.3s ease-out;
+    cursor: pointer;
 }
 
 .ProjectCard > p {
     font-size: 1.2rem;
     margin-top: 1rem;
     text-align: left;
+}
+
+.ProjectCard > img:hover {
+    transform: scale(105%);
+}
+
+@media (max-width: 650px) {
+    .ProjectCard {
+        width: 50vw;
+    }
+    
+    .ProjectCard > img {
+        height: 150px;
+    }
 }

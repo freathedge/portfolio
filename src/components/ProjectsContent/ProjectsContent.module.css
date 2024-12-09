@@ -1,3 +1,17 @@
-.ProjectContent {
+.ProjectsContent {
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 650px) {
+    .ProjectsContent {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
 }

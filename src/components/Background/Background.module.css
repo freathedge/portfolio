@@ -14,3 +14,10 @@
     height: 100%;
     z-index: 1;
 }
+
+@media (max-width: 650px) {
+    .Background {
+        height: 350vh;
+    }
+    
+}

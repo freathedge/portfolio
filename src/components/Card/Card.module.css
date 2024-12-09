@@ -10,3 +10,10 @@
     border: solid 1px rgb(46, 46, 46);
     padding: 5vw;
 }
+
+@media (max-width: 650px) {
+    .Card {
+        height: 320vh;
+    }
+    
+}
